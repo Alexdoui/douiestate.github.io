@@ -26,7 +26,14 @@ var customScripts = {
     },
     fancybox: function () {
         // fancybox
-        $(".fancybox").fancybox();
+        $(".fancybox").fancybox({
+            autoSize: false,
+            fitToView: false,
+            beforeLoad: function () {
+                this.width = 500;
+                this.height = 500;
+            }
+        });
     },
     onePageNav: function () {
 
