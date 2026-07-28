@@ -25,12 +25,12 @@ body {
 }
 ::selection {
 	color: #fff;
-	background: #F39D17;
+	background: #f39d17;
 }
 
 ::-moz-selection {
  color: #fff;
- background: #F39D17;
+ background: #f39d17;
 }
 p {
 	color: #858585;
@@ -277,8 +277,8 @@ width: 100%;
 z-index: 100;
 border-radius: 0;
 top: 0px;
-background: rgb(160, 97, 0);
-border-bottom: 10px solid #F39D17;
+background: rgb(243, 157, 23);
+border-bottom: 10px solid #f39d17;
 }
 .addBg {
 	background: rgba(5, 5, 5, 0.94);

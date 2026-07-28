@@ -10,7 +10,7 @@ var customScripts = {
 		items.imagesLoaded(function() {
 			items.isotope({
 				itemSelector: '.item',
-				layoutMode: 'fitRows',
+				layoutMode: 'masonry',
 				transitionDuration: '0.7s'
 			});
 		});
