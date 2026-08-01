@@ -27,13 +27,15 @@ var customScripts = {
     fancybox: function () {
         // fancybox
         $(".fancybox").fancybox({
-            autoSize: false,
-            fitToView: false,
-            beforeLoad: function () {
-                this.width = 500;
-                this.height = 500;
-            }
-        });
+    autoSize: false,
+    fitToView: true,
+    maxWidth: "95%",
+    maxHeight: "100%",
+    beforeLoad: function () {
+        this.width = Math.min($(window).width() * 0.9, 500);
+        this.height = "100%";
+    }
+});
     },
     onePageNav: function () {
 

@@ -45,8 +45,8 @@
 }
 
 .fancybox-inner {
-    overflow: visible;
-    width: auto;
+    overflow: auto;
+    width: 350px;
     height: max-content;
     text-align: center;
 }
@@ -305,6 +305,18 @@
 	font-size: 16px;
 	color: #fff;
 	text-align: justify;
+}
+
+@media (max-width: 350px) {
+    .fancybox-caption-grid {
+        display: block;
+    }
+
+    .fancybox-caption-grid > * {
+        display: block;
+        width: 50%;
+        margin-bottom: 12px;
+    }
 }
 
 .fancybox-caption-row {
