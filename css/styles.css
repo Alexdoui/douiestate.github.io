@@ -667,7 +667,6 @@ border-top: 1px dashed rgba(163, 0, 70, 0.35);
 	margin-bottom: 54px;
 }
 #aboutUs .right {
-	padding-left: 32px;
 	float: right;
 }
 #aboutUs .left {
@@ -689,7 +688,7 @@ color:#000;
 	margin-top: 18px;
 }
 #aboutUs .left {
-	padding-right: 32px;
+	padding-right: 0;
 	float: left;
 }
 #aboutUs .right {
@@ -697,9 +696,13 @@ color:#000;
 }
 .row .area1 {
 	width: 65%;
+	padding: 15px;
+
 }
 .row .area2 {
 	width: 35%;
+	padding: 15px;
+
 }
 /* Services
     -------------------------------------------------*/
